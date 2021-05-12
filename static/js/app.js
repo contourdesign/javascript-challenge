@@ -25,17 +25,15 @@ loadData();
 
 // -------------------------------
 // setup of variables for d3 elements
-// make variable references to the d3 objects according to id  
+// make variable references according to id  
 var inDate = d3.select("#datetime");
 var inCity = d3.select("#city");
 var inState = d3.select("#state");
 var inCountry = d3.select("#country");
 var inShape = d3.select("#shape");
 
-// variable for filter button with id = 'filter-button'
+// variables for filter and reset button according to id 
 var filterButton = d3.select("#filter-button");
-
-// variable for reset button with id = 'reset-button'
 var resetButton = d3.select("#reset-button");
 
 

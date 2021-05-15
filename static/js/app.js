@@ -21,7 +21,7 @@ function loadData(){
     });
 };
 
-// execute the function
+// execute the function to populate the page with data
 loadData();
 
 // -------------------------------
@@ -60,7 +60,7 @@ function init(){
             )
     });
 
-    // print to console
+    // print to console to check things out
     console.log(filteredData);
 
     // before loading the data, empty the tbody 
@@ -70,7 +70,7 @@ function init(){
     filteredData.forEach(r => {
         var row = tbody.append("tr")
         columns.forEach(column => {
-        row.append("td").text(r[column])    
+            row.append("td").text(r[column])    
         });
     });
 };
@@ -79,12 +79,12 @@ function init(){
 // click event handler to filter the table with the given input
 filterButton.on("click", init)
 
-// empty the tbody 
+// to empty the tbody when the reset button is pressed
 function resetData(){
     tbody.text("")
     loadData()
-    }
+};
     
 // click event handler to reset the table
-resetButton.on("click",resetData)
+resetButton.on("click", resetData);
 

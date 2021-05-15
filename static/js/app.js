@@ -11,6 +11,7 @@ console.log(tableData);
 // array with the column names 
 var columns = ["datetime","city","state","country","shape","durationMinutes","comments"];
 
+
 // loop through data, append each row to table
 function loadData(){
     tableData.forEach(x => {
@@ -21,8 +22,12 @@ function loadData(){
     });
 };
 
+
 // execute the function to populate the page with data
 loadData();
+
+
+
 
 // -------------------------------
 // setup of variables for d3 elements
@@ -36,6 +41,8 @@ var inputShape = d3.select("#shape");
 // variables for filter and reset button according to id 
 var filterButton = d3.select("#filter-button");
 var resetButton = d3.select("#reset-button");
+
+
 
 // main function to initiate filter
 function init(){

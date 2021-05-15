@@ -43,14 +43,14 @@ function init(){
     // add'l prevention for no refresh
     d3.event.preventDefault();
 
-    // Extract the given input for the fields in the table
+    // extract the input for the fields in the table
     var Datevalue = inputDate.property("value");
     var Cityvalue = inputCity.property("value");
     var Statevalue = inputState.property("value");
     var Countryvalue = inputCountry.property("value");
     var Shapevalue = inputShape.property("value");
 
-    // conditions filter the data and assign to a variable
+    // conditions filter the data for each filter value
     var filteredData = tableData.filter(function(d){
        return ((d.datetime === Datevalue || Datevalue == "" ) &&
                 (d.city === Cityvalue || Cityvalue == "") &&

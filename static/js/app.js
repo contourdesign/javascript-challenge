@@ -5,7 +5,7 @@ var tableData = data;
 // reference the tbody 
 var tbody = d3.select("tbody");
 
-// console.log the data variable
+// console.log data variable
 console.log(tableData);
 
 // array with the column names 

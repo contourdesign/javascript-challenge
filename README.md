@@ -2,7 +2,7 @@
 
 ![UFO](https://media1.s-nbcnews.com/j/newscms/2019_13/2459586/180608-aliens-fermi-paradox-ac-515p_3ed014cab156ff9319f4d52ee5242b89.fit-760w.jpg)
 
-![SITE VERSION](https://contourdesign.github.io/javascript-challenge/index.html)
+![SITE VERSION](https://contourdesign.github.io/javascript-challenge/)
 
 ## Background
 
